@@ -7,7 +7,7 @@ build:
   python_packages:
     - "accelerate==0.25.0"
     - "clip-interrogator==0.6.0"
-    - "compel" 
+    - "compel==2.0.2" 
     - "diffusers==0.24.0"
     - "ftfy==6.1.1"
     - "regex==2023.10.3"
@@ -16,6 +16,6 @@ build:
     - "transformers==4.35.2"
     - "numpy==1.25.1"
     - "omegaconf==2.3.0"
-    - "xformers"
+    - "xformers==0.0.22"
 
 predict: "predict.py:Predictor"
