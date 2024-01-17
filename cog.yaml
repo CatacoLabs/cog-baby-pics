@@ -1,0 +1,21 @@
+# Configuration for Cog ⚙️
+# Reference: https://github.com/replicate/cog/blob/main/docs/yaml.md
+
+build:
+  gpu: true
+  python_version: "3.11"
+  python_packages:
+    - "accelerate==0.25.0"
+    - "clip-interrogator==0.6.0"
+    - "compel" 
+    - "diffusers==0.24.0"
+    - "ftfy==6.1.1"
+    - "regex==2023.10.3"
+    - "torch==2.0.1"
+    - "torchvision==0.15.2"
+    - "transformers==4.35.2"
+    - "numpy==1.25.1"
+    - "omegaconf==2.3.0"
+    - "xformers"
+
+predict: "predict.py:Predictor"
