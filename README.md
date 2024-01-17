@@ -1,6 +1,6 @@
 # Baby-pics Cog model
 
-This is an implementation of a custom model [Baby-pics](https://huggingface.co/microsoft/phi-2) as a [Cog](https://github.com/replicate/cog) model. Inspired by [Yifan Goh](https://twitter.com/imgyf) and his webapp OurBabyAI
+This is an implementation of a custom model **Baby-pics** as a [Cog](https://github.com/replicate/cog) model. Inspired by [Yifan Goh](https://twitter.com/imgyf) and his webapp OurBabyAI
 
 ## Development
 
